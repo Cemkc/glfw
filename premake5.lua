@@ -32,7 +32,7 @@ project "GLFW"
 
 	filter "system:windows"
 		systemversion "latest"
-		staticruntime "On" --staticly linking the runtime libraries
+		staticruntime "on" --staticly linking the runtime libraries
 
 		files
 		{
